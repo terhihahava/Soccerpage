@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="nysl_3.css">
+    <link rel="stylesheet" href="form_data.txt">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anton" />
+</head>
+
+<body>
+    <header>
+        <h1 class="h1Header">NORTHSIDE YOUTH SOCCER LEAGUE</h1>
+    </header>
+
+    <div class="dropdown">
+        <nav class="dropbtn">ABOUT</nav>
+        <div class="dropdown-content">
+            <a href="about_3.html">Who we are</a>
+            <a href="GameSchedule2.html">Game Schedule</a>
+            <a href="registration2.html">Registration Form</a>
+            <a href="rules2.html">Rules of Play and Policies</a>
+        </div>
+    </div>
+
+
+    <img class="logo" src="https://s3.amazonaws.com/gbstool/emails/2027/nysl_logo.png?AWSAccessKeyId=AKIAJBIZLMJQ2O6DKIAA&Expires=1539680400&Signature=LjKqwgwA7NO6iwu9pFyLORN8nkk%3D" alt="NYSL logo">
+
+    <div class="navsection">
+        <nav id="nav1">
+            <a href="landing_4.html">HOME</a> </nav>
+        <nav id="nav2">
+            <a href="Getintouch_3.html">CONTACT</a> </nav>
+    </div>
+
+    <div class="social-media-icons">
+        <img id="FBicon" src="if_46-facebook_104458.png" alt="FB_icon">
+        <img id="Instaicon" src="if_78-instagram_104425.png" alt="insta_icon">
+        <img id="Twittericon" src="if_43-twitter_104461.png" alt="twitter_icon">
+    </div>
+
+    <!--BANNER-->
+    
+<div class="body">  
+
+    <div class="pagebanner">
+        <h1 class="bannertext">REGISTRATION FORM </h1>
+    </div>
+
+
+    <!--REGISTRATION FORM-->
+
+    <form class="form" action="show_data.html" method="GET">
+
+    <fieldset>
+        <label>Player's First Name:
+            <input type="text" name="first_name"></label>
+            
+        <label>Last Name:
+            <input type="text" name="last_name"></label>
+    </fieldset>
+        
+    <fieldset>   
+        <label >Street Address:
+            <input type="text" name="street_address" ></label>
+    </fieldset>
+
+     <fieldset> 
+        <label>City:
+            <input type="text" name="city"></label>
+
+        <label>ZIP Code:
+            <input type="text" name="zip_code"></label>
+     </fieldset>
+
+    <fieldset> 
+        <label>Birthday:
+            <input type="date" name="birthday"></label>
+
+        <label>Parent/Guardian:
+            <input type="text" name="parent_guardian"></label>      
+    </fieldset>
+    
+     <fieldset> 
+        <label>Contact Phone:
+            <input type="number" name="contact_phone"></label>
+            
+        <label>Contact Email:
+            <input type="email" name="contact_email"></label>
+    </fieldset>
+
+        <fieldset>
+            <label>First Closest School:
+                <select name="school">
+                    <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                    <option value="Greenbay" selected>Greenbay</option>
+                    <option value="Howard A Yeager" selected>Howard A Yeager</option>
+                    <option value="Marjorie P Hart" selected>Marjorie P Hart</option>
+                    <option value="North Elementary" selected>North Elementary</option>
+                    <option value="South Elementary" selected>South Elementary</option>
+                </select>
+                    
+                    
+                    <label>Second Closest School:
+                        <select name="school">
+                            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                            <option value="Greenbay" selected>Greenbay</option>
+                            <option value="Howard A Yeager" selected>Howard A Yeager</option>
+                            <option value="Marjorie P Hart" selected>Marjorie P Hart</option>
+                            <option value="North Elementary" selected>North Elementary</option>
+                            <option value="South Elementary" selected>South Elementary</option>
+                        </select> </label></fieldset>
+
+        <fieldset class="checkboxes">
+            <label> What position(s) do you normally play? (check all that apply)<br>
+                <input class= "checkbox" type="checkbox" name="position" value="Forward" checked>Forward <br>
+                <input type="checkbox" name="position" value="Defense" checked>Defense <br>
+                <input  type="checkbox" name="position" value="Midfield" checked>Midfield <br>
+                <input type="checkbox" name="position" value="Goalkeeper" checked>Goalkeeper <br>
+            </label> </fieldset>
+            
+         <fieldset class="checkboxes2">
+            <label> What position(s) do you want to play? (check all that apply) <br>
+                <input type="checkbox" name="position" value="Forward" checked>Forward <br>
+                <input type="checkbox" name="position" value="Defense" checked>Defense <br>
+                <input type="checkbox" name="position" value="Midfield" checked>Midfield <br>
+                <input type="checkbox" name="position" value="Goalkeeper" checked>Goalkeeper <br>
+            </label></fieldset>
+            
+       <br>
+       <br>
+
+        <fieldset>
+            <input type="checkbox" name="position" value="Already Have a Uniform" checked>Already Have a Uniform
+        </fieldset>
+       <br>
+       <br>
+        <div class="form_end">
+            <label> Jersey Size:
+                <select name="school">
+                    <option value="Youth Small" selected>Youth Small</option>
+                    <option value="Youth Medium" selected>Youth Medium</option>
+                    <option value="Youth Large" selected>Youth Large</option>
+                    <option value="Small" selected>Small</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="Large" selected>Large</option>
+                    <option value="Extra Large" selected>Extra Large</option>
+                </select> </label>
+
+            <label> Shorts Size:
+                <select name="school">
+                    <option value="Youth Small" selected>Youth Small</option>
+                    <option value="Youth Medium" selected>Youth Medium</option>
+                    <option value="Youth Large" selected>Youth Large</option>
+                    <option value="Small" selected>Small</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="Large" selected>Large</option>
+                    <option value="Extra Large" selected>Extra Large</option>
+                </select> </label>
+
+        <h2>Permission to Play</h2>
+        <p class="registration_paragraph">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+
+        <p class="registration_paragraph">By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+        
+        </div>
+        
+        <fieldset>Parent/Guardian Signature:
+            <input type="text" name="signature"></label>
+
+        <label>Date:
+            <input type="date" name="date_signed"></label>
+    </fieldset>
+
+        <button name="submit"><strong>Submit form</strong></button>
+
+</form>
+
+</div> 
+
+</body>
+
+</html>

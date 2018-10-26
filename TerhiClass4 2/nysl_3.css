@@ -1,0 +1,657 @@
+body {
+    margin: 0px;
+}
+
+p {
+    font-family: Jura;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: Jura;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.body {position: relative;
+top: 70px;
+}
+
+.HomePageImage {
+    padding: 0px;
+    background-image: url("design1_image1.jpg");
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 white inset, -2px -2px 5px 0 white inset;
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    margin: 0px;
+    background-size: cover;
+}
+
+.h1Header {
+    color: black;
+    font-size: 20px;
+    font-family: Jura;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    height: 20px;
+    vertical-align: text-top;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    top: 5px;
+    position: absolute;
+}
+
+.MiddleHeader {
+    background-color: Black;
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 350px;
+    vertical-align: middle;
+}
+
+.h2Header {
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: Center;
+    vertical-align: top;
+}
+
+.dropbtn {
+    background: white;
+    color: black;
+    font-family: Jura;
+    padding: 16px;
+    font-size: 17px;
+    letter-spacing: 4px;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 800px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 16px;
+    top: 50px;
+    left: 795px;
+    z-index: 1;
+    min-width: 400px;
+    margin-top: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.5;
+    display: block;
+    padding-left: 15px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: lawngreen;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: lawngreen;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    color: lawngreen;
+}
+
+.navsection {
+    position: relative;
+    right: 200px;
+}
+
+#nav1 {
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 28px;
+    left: 900px;
+    color: black;
+}
+
+#nav1 a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav1 a:hover {
+    color: lawngreen;
+    font-weight: bold;
+}
+
+#nav2 {
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 28px;
+    left: 1148px;
+    color: black;
+}
+
+#nav2 a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav2 a:hover {
+    color: lawngreen;
+    font-weight: bold;
+}
+
+
+.social-media-icons {
+    position: absolute;
+    top: 36px;
+    right: 10px;
+}
+
+#FBicon {
+    height: 40px;
+    width;
+    40px;
+}
+
+#Instaicon {
+    height: 40px;
+    width;
+    40px;
+}
+
+#Twittericon {
+    height: 40px;
+    width;
+    40px;
+}
+
+#textbox {
+    font-family: Arial;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    z-index: 2;
+}
+
+#button {
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    border: 2px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 450px;
+    left: 955px;
+}
+
+#button a {
+    color: black;
+    text-decoration: none;
+}
+
+.Mission_image {
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    width: 400px;
+    height: auto;
+    z-index: 2;
+}
+
+.Mission_textbox {
+    position: absolute;
+    left: 520px;
+    top: 230px;
+    background-color: lightgreen;
+    background-image: linear-gradient(to bottom right, lightgreen, white);
+    width: 700px;
+    height: 350px;
+    font-family: Jura;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mission_text {
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: bolder;
+    
+}
+
+.Mission_header {
+    font-family: Anton;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: right;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.Vision_textbox {
+    position: absolute;
+    left: 90px;
+    top: 650px;
+    background-color: white;
+    width: 900px;
+    height: 230px;
+    font-family: Jura;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Vision_image {
+    position: absolute;
+    left: 1000px;
+    top: 650px;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+}
+
+.Vision_text {
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: bolder;
+    
+    
+}
+
+.Vision_header {
+    font-family: Anton;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.General_info_textbox {
+    position: absolute;
+    left: 120px;
+    top: 980px;
+    background-color: lightgreen;
+     background-image: linear-gradient(to bottom left, lightgreen, white);
+    width: 780px;
+    height: 400px;
+    font-family: Jura;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.General_info_text {
+   margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: bolder;
+    
+}
+
+.General_info_header {
+    font-family: Anton;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: right;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.pagebanner {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 130px;
+    height: 180px;
+    width: 100%;
+    background-color: lightgreen;
+    background-image: linear-gradient(lightgreen, white);
+    color: black;
+}
+
+.pagebanner_large {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: top;
+    top: 210px;
+    height: 400px;
+    width: 100%;
+    background-color: lightgreen;
+    background-image: linear-gradient(lightgreen, white);
+    color: black;
+}
+
+.bannertext {
+    font-family: Anton;
+    letter-spacing: 6px;
+    font-size: 50px; 
+    color: black;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.contact_information {position: absolute;
+top: 150px;
+text-align: center;
+font-family: Anton;
+font-size: 30px;
+color: black;
+}
+
+.contact_information_image {
+    position: absolute;
+   left: 90px;
+    align-self: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 2px;
+    align-items: center;
+}
+
+#rules_section {
+    position: absolute;
+    top: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#rules_p1 {
+    font-family: Jura;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rules_heading2 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: square;
+    font-family: Jura;
+    font-size: 20px;
+    text-align: justify
+}
+
+li {
+    margin: 15px 0;
+}
+
+ol {
+    font-family: Jura;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sub_alpha {
+    list-style-type: lower-alpha;
+}
+
+table {
+    position: absolute;
+    left: 320px;
+    width: 800px;
+    font-family: Jura;
+    font-size: 20px;
+    text-align: left;
+    border: 1px;
+}
+
+#first_row {
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.form {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    
+
+}
+
+label {
+    font-family: Jura;
+    Font-size: 20px;
+    padding-right: 50px;
+}
+
+
+.registration_paragraph {
+    font-family: Jura;
+    font-size: 15px;
+}
+
+select {
+    font-family: Jura;
+    font-size: 20px;
+    width: 250px;
+}
+
+input {
+    font-family: Jura;
+    font-size: 20px;
+
+}
+
+
+fieldset {
+    font-family: Jura;
+    font-size: 20px;
+    height: 40px;
+    border-style: hidden;
+    padding: 30px;
+}
+
+.checkboxes {
+    font-family: Jura;
+    font-size: 20px;
+    height: 115px;
+    width: 100 px;
+    
+}
+
+.checkbox {
+    width: 10px;}
+
+.checkboxes2 {
+    font-family: Jura;
+    font-size: 20px;
+    height: 116px;
+    width: 630px;
+    position: absolute;
+    top: 360px;
+    left: 732px;
+    ;
+}
+
+.street_address {
+    width: 300px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: black;
+    border-width: medium;
+    border-radius: 15px;
+    position: absolute;
+    top: 920px;
+    left: 45%;
+}
+
+.form_end {margin-left: 40px;
+margin-right: 40px;}
+
+/* SLIDESHOW FOR LANDING PAGE */
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1450px;
+    max-height: 500px;
+    position: absolute;
+    top: 120px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 0 white inset, -5px -5px 15px 0 white inset;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 3;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

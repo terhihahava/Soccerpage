@@ -1,0 +1,17 @@
+
+.MainHeader{
+    padding: 40px;
+    background: url("https://flic.kr/p/2c7mhiz");
+    height: 300px; 
+    width: 400px;
+    position: relative; 
+    margin: 20px;
+    }
+    
+.MiddleHeader{
+    background-color: Black;
+    padding: 20px;
+    height: 50px;
+    width: 400px;
+    margin: 20px;
+        }

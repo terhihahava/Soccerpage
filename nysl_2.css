@@ -1,0 +1,153 @@
+
+.MainHeader{
+    padding: 4px;
+    background-image: url("design2_image1.jpg");
+    height: 300px; 
+    width: 100%;
+    position: absolute; 
+    top: 50px;
+    margin: 0px;
+    background-size: cover;
+    }
+
+.h1Header {
+    color: black;
+    font-size: 25px;
+    font-family: Palatino; 
+    position: absolute;
+    top: 0px;
+    height: 22px;
+    vertical-align: text-top;
+}
+
+
+.MiddleHeader{
+    background-color: Black;
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 350px;
+    vertical-align: middle;
+        }
+
+.h2Header {
+    color: white;
+    font-size: 20px;
+    font-family: Arial; 
+    text-align: Center;
+    vertical-align: top;
+}
+
+.logo {
+    height: 160px;
+    width: 160px;
+    top: 430px;
+    left: 3%;
+    position: absolute;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: 2px;
+    border-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    box-shadow: 5px 5px #000000;
+}
+
+.button1 a {
+    color:white;
+    text-decoration: none;
+}
+
+.button2 {
+    background-color: 	#00008B;
+    border: 2px;
+    border-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+    left: 1200px;
+    box-shadow: 5px 5px #000000;
+}
+.button2 a {
+    color:white;
+    text-decoration: none;
+}
+
+.button3 {
+    background-color: 	#00008B;
+    border: 2px;
+    border-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+     box-shadow: 5px 5px #000000;
+}
+
+.button3 a {
+    color:white;
+    text-decoration: none;
+}
+.textsection {
+    position: absolute;
+    top: 430px;
+    left: 300px;
+    margin-right: 70px;
+}
+
+.paragraphtext {
+    font-family: Palatino;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.h3Header {
+    font-family: Palatino;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.paragraphtext1 {
+    font-family: Palatino;
+    font-size: 20px;
+    position: relative;
+   left: 10px;
+}
+
+.paragraphtext2 {
+    font-family: Palatino;
+    font-size: 20px;
+    position: relative;
+   left: 10px;
+    line-height: 20px;
+}
+
+.h3Header2 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    
+}

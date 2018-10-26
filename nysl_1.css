@@ -1,0 +1,79 @@
+h3 {font-family: Arial; font-size: 20px; font-style: bold}
+p {font-family: Palatino; font-size: 15px;}
+
+.MainHeader{
+    padding: 4px;
+    background-image: url("design2_image1.jpg");
+    height: 300px; 
+    width: 100%;
+    position: relative; 
+    margin: 0px;
+    background-size: cover;
+    }
+
+.h1Header {
+    color: white;
+    font-size: 45px;
+    font-family: Palatino; 
+}
+
+
+.MiddleHeader{
+    background-color: Black;
+    padding: 0px;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    position:absolute;
+        }
+
+.h2Header {
+    color: white;
+    font-size: 30px;
+    font-family: Arial; 
+    text-align: Center;
+}
+
+.logo {
+    height: 160px;
+    width: 160px;
+    top: -50px;
+    left: 75%;
+    position: absolute;
+}
+
+.navigationsection {
+    float:left;
+    position:absolute;
+    top: 400px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: Palatino;
+}
+
+.textsection {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    margin-right: 70px;
+}
+
+.paragraphtext {
+    font-family: Palatino;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.h3Header {
+    font-family: Palatino;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.paragraphtext1 {
+    font-family: Palatino;
+    font-size: 20px;
+    position: relative;
+   left: 10px;
+}

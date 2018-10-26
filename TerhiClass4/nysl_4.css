@@ -1,0 +1,417 @@
+body {margin: 0px;}
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+    border-left: 10px;
+}
+
+.body {position: relative;
+top: 70px;}
+
+.textsection{
+    position: relative;
+    margin-left: 100px;
+}
+
+.HomePageImage{
+    padding: 0px;
+    background-image: url("design1_image1.jpg");
+   border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 white inset, -2px -2px 5px 0 white inset; 
+    height: 620px; 
+    width: 100%;
+    position: absolute; 
+    top: 110px;
+    margin: 0px;
+    background-size: cover;
+    }
+
+.h1Header {
+    color: black;
+    font-size: 20px;
+    font-family: Jura;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 30px;
+    left: 120px; 
+    height: 20px;
+    vertical-align: text-top;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    top: 5px;
+    position: absolute;
+}
+
+.MiddleHeader{
+    background-color: Black;
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 350px;
+    vertical-align: middle;
+        }
+
+.h2Header {
+    color: white;
+    font-size: 20px;
+    font-family: Arial; 
+    text-align: Center;
+    vertical-align: top;
+}
+
+.dropbtn {
+    background: white;
+    color: black;
+    font-family: Jura;
+    padding: 16px;
+    font-size: 17px;
+    letter-spacing: 4px;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 800px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 16px;
+    top: 50px;
+    left: 795px;
+    z-index: 1;
+    min-width: 400px;
+    margin-top: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.5;
+    display: block;
+    padding-left: 15px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: lawngreen;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: lawngreen;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    color: lawngreen;
+}
+
+.navsection {
+    position: relative;
+    right: 200px;
+}
+
+#nav1 {
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 28px;
+    left: 900px;
+    color: black;
+}
+
+#nav1 a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav1 a:hover {
+    color: lawngreen;
+    font-weight: bold;
+}
+
+#nav2 {
+    font-family: Jura;
+    font-size: 17px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 28px;
+    left: 1148px;
+    color: black;
+}
+
+#nav2 a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav2 a:hover {
+    color: lawngreen;
+    font-weight: bold;
+}
+
+
+.social-media-icons {
+position: absolute;
+    top:36px;
+    right: 10px;
+}
+
+#FBicon {
+    height: 40px;
+    width; 40px;
+}
+
+#Instaicon {
+    height: 40px;
+    width; 40px;
+}
+
+#Twittericon {
+    height: 40px;
+    width; 40px;
+}
+
+#textbox {
+    font-family: Arial;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    z-index: 999;
+}
+
+#button {
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    border: 2px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width:120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 450px;
+    left: 955px;
+}
+
+#button a {
+    color: black;
+    text-decoration: none;
+}
+
+.leftsideimage {
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
+
+.rightsidetext {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    margin-right: 50px;
+}
+
+.h3Header{
+    font-family: sans-serif;
+    font-style:italic;
+    font-size: 20px;
+    position: relative;
+    right:15px;}
+    
+}
+
+#paragraphtext2 {
+    font-size: 5px;
+    font-family: Arial;
+}
+
+
+
+.pagebanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    height: 180px;
+    width: 100%;
+    background-color: lightgreen;
+    background-image: linear-gradient(lightgreen, white);
+    color: black;
+}
+
+.bannertext {
+    font-family: Anton;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: black;
+    text-align: center;
+    vertical-align: middle; 
+    text-transform:uppercase;
+}
+
+
+#rules_section {
+    position: absolute;
+    top: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#rules_p1 {
+    font-family: Jura;
+    font-size: 20px;
+    text-align: center;
+}
+
+#rules_heading2 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {list-style-type: square;
+font-family: Jura;
+font-size: 20px;
+text-align: justify}
+
+ol {
+font-family: Jura;
+font-size: 20px;
+text-align: justify}
+
+.sub_alpha {list-style-type: lower-alpha;}
+
+table {
+    position:absolute;
+    width: 800px;
+    font-size: 20px;
+    text-align: left;
+    border: 1px;
+}
+
+#first_row {
+    font-weight: bold;
+    font-family:arial;
+text-decoration: underline;
+}
+
+.table3 {
+    position:absolute;
+ top: 430px;
+}
+
+.caption {
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.game_loc_part2 {position: absolute;
+font-family: Arial;
+top: 960px;
+left: 20px;}
+
+.map1 {position: absolute;
+top: 1200px;
+}
+
+.map1_text{position: absolute;
+top: 1200px;
+left: 400px;
+}
+
+.map2{
+    position: absolute;
+    top: 1470px;
+}
+
+.map2_text{
+    position: absolute;
+    top: 1470px;
+    left: 400px;
+}
+
+.map3{
+    position: absolute;
+    top: 1740px;
+}
+
+.map3_text{
+    position: absolute;
+    top: 1740px;
+    left: 400px;
+}
+
+.map4{
+    position: absolute;
+    top: 2010px;
+}
+
+.map4_text{
+    position: absolute;
+    top: 2010px;
+    left: 400px;
+}
+
+.map5{
+    position: absolute;
+    top: 2285px;
+}
+
+.map5_text{
+    position: absolute;
+    top: 2285px;
+    left: 400px;
+}
+
+.map6{
+    position: absolute;
+    top: 2570px;
+}
+
+.map6_text{
+    position: absolute;
+    top: 2570px;
+    left: 400px;
+}
+
+.h2_game_locations {position: absolute;
+top: 1180px;
+left: 25px;
+text-decoration: underline;
+font-size: 20px;
+font-weight: bold;}
+
+.game_locations_section {position: relative;
+top: 50px;
+left: 20px;}
